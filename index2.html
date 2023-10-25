@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while loop</title>
+</head>
+
+<body>
+    <h1>javascript statements</h1>
+    <h2>the while sratements</h2>
+
+    <p>loop an array to collect car names:</p>
+    <p id="demo"></p>
+
+    <script>
+        const cars = ["BMW", "volvo", "saab", "ford"];
+        let text = "";
+        let i = 0;
+        while (i < cars.length) {
+            text += cars[i] + "<br>";
+            i++;
+
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
